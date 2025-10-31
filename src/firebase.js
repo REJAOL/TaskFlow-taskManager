@@ -5,12 +5,12 @@ import {getAuth} from "firebase/auth"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCjH2Iae4fEvhkhncKuLKphkcFrT3xtG5Q",
-  authDomain: "taskflow-app-305e6.firebaseapp.com",
-  projectId: "taskflow-app-305e6",
-  storageBucket: "taskflow-app-305e6.firebasestorage.app",
-  messagingSenderId: "788755700493",
-  appId: "1:788755700493:web:5a1a0b737b62fde04bee44"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 
